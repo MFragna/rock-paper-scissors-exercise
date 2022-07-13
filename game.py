@@ -1,4 +1,9 @@
+print("Rock, Paper, Scissors, Shoot!")
 
+user_choice = input("Please make a selection('rock', 'paper', 'scissors'")
+
+print("You chose:", user_choice)
+print(f"You chose")
 
 
 #
