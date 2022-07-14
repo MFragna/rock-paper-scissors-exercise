@@ -55,6 +55,7 @@ elif user_choice == "scissors":
     else:
         print("You lose!")
 #DISPLAY RESULTS
+print("Thanks for playing. Please play again!")
 
 
 #-------------------
