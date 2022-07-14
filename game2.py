@@ -27,8 +27,23 @@ print(f"Computer chose: '{computer_choice}' ")
 
 
 #DETERMINE THE WINNER
-
-
+if user_choice == computer_choice:
+    print("It is a tie, please try again!")
+elif user_choice == "rock":
+    if computer_choice == "scissors":
+        print("You win!")
+    else:
+        print("You lose!")
+elif user_choice == "paper":
+    if computer_choice == "rock":
+        print("You win!")
+    else:
+        print("You lose!")
+elif user_choice == "scissors":
+    if computer_choice == "paper":
+        print("You win!")
+    else:
+        print("You lose!")
 #DISPLAY RESULTS
 
 
