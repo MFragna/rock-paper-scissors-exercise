@@ -1,7 +1,7 @@
 import random
 print("Rock, Paper, Scissors, Shoot!")
 #USER INPUTS
-user_choice = input("Please make a selection('rock', 'paper', 'scissors'")
+user_choice = input("Please make a selection('rock', 'paper', 'scissors'): ")
 user_choice = user_choice.lower()
 print(f"You Chose: {user_choice} ")
 
@@ -35,6 +35,20 @@ elif user_choice == "rock":
 
 #DISPLAYING RESULTS
 print("Thank you for playing with me!")
+
+#PRINT
+#------------------
+#Welcome 'Player One' to my Rock-Paper-Scissors game...
+#------------------
+#Please choose either 'rock', 'paper', or 'scissors': rock
+#You chose: 'rock'
+#The computer chose: 'paper'
+#------------------
+#Oh, the computer won. It's ok.
+#------------------
+#Thanks for playing. Please play again!
+#
+
 #
 # todo: write some Python code here to satisfy the exercise objectives
 # ... https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md
