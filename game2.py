@@ -8,11 +8,21 @@ print("WELCOME TO OUR ROCK PAPER SCISSORS GAME")
 
 
 user_choice = input("Please make a selection('rock', 'paper', 'scissors'): ") 
+user_choice = user_choice.lower()
 print("You chose:", user_choice)
 print(f"You chose: '{user_choice}' ")
 
 
 #VALIDATE USER INPUTS
+valid_options = ["rock", "paper", "scissors"]
+
+#breakpoint()
+
+if user_choice in valid_options:
+    pass
+else:
+    print("OOPS INVALID TRY AGAIN")
+    exit()
 
 
 #COMPUTER CHOICE
@@ -20,12 +30,12 @@ print(f"You chose: '{user_choice}' ")
 
 #Import Random
 
-valid_options = ["rock", "paper", "scissors"]
+
 computer_choice = random.choice(valid_options)
 print(f"Computer chose: '{computer_choice}' ")
 
 
-
+#This code was adapted from code shared in slack by Bonnie Auger
 #DETERMINE THE WINNER
 if user_choice == computer_choice:
     print("It is a tie, please try again!")
