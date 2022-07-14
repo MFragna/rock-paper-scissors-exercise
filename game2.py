@@ -22,7 +22,7 @@ if user_choice in valid_options:
     pass
 else:
     print("OOPS INVALID TRY AGAIN")
-    exit()
+    exit() #quit()
 
 
 #COMPUTER CHOICE
