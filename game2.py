@@ -1,4 +1,4 @@
-
+import random
 
 
 print("WELCOME TO OUR ROCK PAPER SCISSORS GAME")
@@ -16,6 +16,15 @@ print(f"You chose: '{user_choice}' ")
 
 
 #COMPUTER CHOICE
+
+
+#Import Random
+
+valid_options = ["rock", "paper", "scissors"]
+computer_choice = random.choice(valid_options)
+print(f"Computer chose: '{computer_choice}' ")
+
+
 
 #DETERMINE THE WINNER
 
